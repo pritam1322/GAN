@@ -1,3 +1,3 @@
-# GAN-simpleGAN  
+# GAN
 
 Working!!!!!!!!!!
