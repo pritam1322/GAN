@@ -10,8 +10,13 @@ CycleGAN uses the 6/9 residual block architecture for generator similar to Johns
 
 ![image.png](https://github.com/pritam1322/GAN/blob/main/CycleGAN/image.png)
 
+
+# Loss
 Total loss = Adversarial loss + Cycle consistency = L(G, F, DX, DY ) =LGAN(G, DY , X, Y ) + LGAN(F, DX, Y, X) + λLcyc(G, F),  
 
-Reference- 
+# Dataset
+ The dataset used in the project i staken from VOC Dataset.
+
+# Reference- 
 @Aladdin perrson 
 https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs/CycleGAN
